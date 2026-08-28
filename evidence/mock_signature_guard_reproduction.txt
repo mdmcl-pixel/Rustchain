@@ -1,0 +1,6 @@
+RustChain mock-signature guard — offline policy reproduction
+==============================================================
+production + mock enabled: before=STARTS; after=BLOCKED
+production + mock disabled: before=STARTS; after=STARTS
+test + mock enabled: before=STARTS; after=STARTS
+Validation: PASS
