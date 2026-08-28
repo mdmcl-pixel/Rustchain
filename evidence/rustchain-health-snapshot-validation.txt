@@ -1,0 +1,42 @@
+RustChain public health snapshot tutorial — validation evidence
+Date: 2026-08-28
+
+Commands executed against the submitted example/test code:
+
+1) Offline sample CLI
+python examples/rustchain_health_snapshot.py --sample --miner-limit 2
+
+Result: exit code 0
+Output:
+{
+  "health": {
+    "epoch": 123,
+    "miners": 4,
+    "ok": true,
+    "version": "sample"
+  },
+  "miners": [
+    {
+      "architecture": "ppc64",
+      "miner_id": "RTCsample0001",
+      "weight": 2.5
+    },
+    {
+      "architecture": "x86_64",
+      "miner_id": "RTCsample0002",
+      "weight": 1.0
+    }
+  ]
+}
+
+2) Unit tests
+python -m unittest tests/test_rustchain_health_snapshot.py -v
+
+Result: 4 tests passed, 0 failed.
+Covered:
+- rejects non-object health payloads
+- bounds miner output to the configured limit
+- rejects responses over the 1 MB client-side cap
+- sample CLI produces valid JSON without network access
+
+This evidence is intentionally offline/deterministic. It validates the submitted parser, bounds, and CLI sample path without making production writes or security-test traffic. Live endpoint availability is not asserted by this file.
