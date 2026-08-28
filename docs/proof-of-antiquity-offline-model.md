@@ -1,5 +1,8 @@
 # Proof of Antiquity, explained with a tiny offline reward model
 
+**Author:** `mdmcl-pixel`  
+**Assistance disclosure:** prepared and validated with GPT-5.6 Sol under the repository owner's direction.
+
 RustChain is a DePIN network built around **Proof of Antiquity (PoA)**: instead of rewarding only raw throughput or stake, the project gives older and more unusual real hardware higher reward multipliers. The upstream RustChain README describes examples such as a PowerPC G4 at 2.5x, a Power Mac G5 at 2.0x, Apple Silicon M1 at 1.2x, modern x86_64 at 1.0x, and several older architectures at still higher tiers.
 
 This tutorial turns that idea into a small, transparent Python model you can run locally. It does **not** implement RustChain consensus, attestation, wallet logic, or payout rules. It is an educational calculator that answers one narrow question:
