@@ -1,0 +1,13 @@
+Educational Proof-of-Antiquity reward weighting
+NOT consensus, attestation, wallet, or payout code
+
+Machine                 Work    Mult   Weighted     Share
+----------------------------------------------------------
+PowerPC G4              1.00    2.50       2.50    37.31%
+Power Mac G5            1.00    2.00       2.00    29.85%
+Apple Silicon M1        1.00    1.20       1.20    17.91%
+Modern x86_64           1.00    1.00       1.00    14.93%
+----------------------------------------------------------
+Total                                      6.70   100.00%
+
+Validation: PASS
