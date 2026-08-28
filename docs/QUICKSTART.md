@@ -285,9 +285,9 @@ Every issue tagged with a bounty has an RTC reward listed. Rewards range from 1 
 ### How to Claim a Bounty
 
 1. Find a bounty issue you want to work on
-2. Comment on the issue with your wallet name (so we know where to pay you)
-3. Fork the repo and submit a Pull Request
-4. Once your PR is reviewed and merged, RTC is sent to your wallet
+2. Follow any issue-specific claim or reservation instructions
+3. Fork the repo and submit a Pull Request — you do not need an RTC wallet address before opening the PR
+4. Once your PR is reviewed and merged, the project will ask for your RTC wallet address during the payout step
 
 ### Easiest First Contribution
 
