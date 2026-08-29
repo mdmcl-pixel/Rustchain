@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+  <title id="title">RustChain RTC address derivation</title>
+  <desc id="desc">A cover graphic showing an Ed25519 public key flowing through SHA-256 into an RTC-prefixed address.</desc>
+  <rect width="1000" height="420" fill="#101418"/>
+  <rect x="48" y="48" width="904" height="324" rx="28" fill="#161d23" stroke="#4ade80" stroke-width="3"/>
+  <text x="86" y="116" fill="#4ade80" font-family="monospace" font-size="24" font-weight="700">RUSTCHAIN WALLET</text>
+  <text x="86" y="176" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="700">Public key → native RTC address</text>
+  <text x="86" y="235" fill="#cbd5e1" font-family="monospace" font-size="25">Ed25519 public key bytes</text>
+  <text x="430" y="235" fill="#4ade80" font-family="monospace" font-size="28">SHA-256</text>
+  <text x="594" y="235" fill="#cbd5e1" font-family="monospace" font-size="25">RTC + 40 hex chars</text>
+  <path d="M350 226 H404" stroke="#94a3b8" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M548 226 H580" stroke="#94a3b8" stroke-width="4" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <text x="86" y="306" fill="#ffffff" font-family="monospace" font-size="22">RTC630dcd2966c4336691125448bbb25b4ff412a49c</text>
+  <text x="86" y="346" fill="#94a3b8" font-family="Arial, sans-serif" font-size="18">Code-backed tutorial · public test vector · no private-key handling</text>
+</svg>
