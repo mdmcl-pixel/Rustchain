@@ -5,7 +5,7 @@ Thanks for your interest in contributing to RustChain! We pay bounties in RTC to
 ## First-Time Contributor Quick Guide (10 RTC Bonus)
 
 > **Pro-tip:** Star the repo first! Starring repos is free and helps the community grow.
-> After your first PR is merged, you'll earn 10 RTC (≈ $1.00)!
+> After your first PR is merged, you'll earn 10 RTC (≈ $1.50)!
 
 New to RustChain? Get 10 RTC for your **first merged PR** — even for small improvements:
 
