@@ -1,0 +1,4 @@
+Previous epoch hash: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Active checks: thermal_drift, cache_timing, instruction_jitter, anti_emulation
+Missing-hash fail-closed count: 6
+Validation: PASS
